@@ -1,0 +1,19 @@
+.ha_text {
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 17%;
+}
+
+.dc_text {
+    font-family:'Inter';
+    font-size: 16px;
+    line-height: 93%;
+    vertical-align: Top;
+    --color: #82909D;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+    text-decoration-line: underline;
+}

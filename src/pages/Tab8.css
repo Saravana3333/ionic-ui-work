@@ -1,0 +1,82 @@
+.wb_con{
+    font-family: 'Poppins';
+    font-style: 'SemiBold';
+    font-weight:900;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #333333
+}
+
+.eptext{
+    margin-left: 20px !important;
+    font-family:'Poppins';
+    font-style: 'Regular';
+    font-size: 12px;
+    line-height: 18px;
+    line-height: 100%;
+    align-items: Left;
+    vertical-align: top;
+    opacity: 50%;
+    fill: solid #020614;
+}
+
+/* .shieldimg{
+     position:absolute; 
+}  */
+
+.shieldtxt>h2
+{
+    font-family: 'Poppins';
+    font-weight:900;
+    font-size: 24px;
+    line-height: 36px;
+    color: wheat;
+    position:absolute;
+}
+
+
+.fptext{
+    margin-left: 20px !important;
+    font-family:'Poppins';
+    font-size: 12px;
+    line-height: 100%;
+    vertical-align: top;
+    opacity: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.epinput{
+    margin-right: 6%;
+    margin-left:6%;
+}
+
+.si_btn{
+    --background: #100D40;
+    --border-radius: 40px;
+    width: 85%;
+    height: 7%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 7%;
+}
+
+.signup-con{
+    width: 300px;
+    height: 18px;
+    /* margin-top:5%; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    --color: #100D40;
+    opacity: 50%;
+    text-align: center;
+    margin-bottom: 10%;
+}

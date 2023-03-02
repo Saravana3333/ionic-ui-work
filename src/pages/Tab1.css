@@ -1,0 +1,22 @@
+.bg-color
+{
+    --ion-background-color:#100D40;
+}
+
+.hd-sheild {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.log_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+  

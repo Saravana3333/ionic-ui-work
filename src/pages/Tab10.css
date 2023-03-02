@@ -1,0 +1,62 @@
+.chpass_con {
+    font-family: 'Poppins';
+    font-style: 'SemiBold';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    margin-top: 15%;
+}
+
+.chinput{
+    margin-top: 30%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.chpass_btn {
+    --background: #100D40;
+    --border-radius: 40px;
+    margin-left: 7%;
+    width: 85%;
+    height: 7%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.can_btn {
+    margin-top: 20px;
+    margin-bottom:10%;
+    margin-left: 7%;
+    --background: #FFFFFF;
+    --border-radius: 40px;
+    --border-color: #100D40;
+    width: 85%;
+    height: 7%;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #100D40;
+}
+
+.repass_con>h6{
+    margin-left: 10%;
+    margin-top: 6%;
+    font-family:'Poppins';
+    font-style: 'Regular';
+    font-size: 14px;
+    line-height: 18px;
+    line-height: 100%;
+    align-items: Left;
+    vertical-align: top;
+    opacity: 50%;
+    fill: solid #020614;
+}

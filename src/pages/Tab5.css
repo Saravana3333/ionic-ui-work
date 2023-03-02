@@ -1,0 +1,92 @@
+.wel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    margin-top: 40%;
+}
+
+.list {
+    margin-top: 45px;
+    margin-right: 20px;
+}
+
+.sg_btn {
+    margin-top: 30px;
+    margin-left: 6.5%;
+    --background: #100D40;
+    --border-radius: 40px;
+    width: 85%;
+    height: 7%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wn_btn {
+    margin-top: 30px;
+    margin-left: 6.5%;
+    --background: #FFFFFF;
+    --border-radius: 40px;
+    --border-color: #100D40;
+    width: 85%;
+    height: 7%;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #100D40;
+}
+
+.hd-con {
+    font-family: 'Poppins';
+    font-style: Mixed;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: Left;
+    vertical-align: Top;
+}
+
+.ion-am-input {
+    margin-left: 6%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.sign {
+    width: 41px;
+    height: 18px;
+    left: 250px;
+    top: 754px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    --color: #100D40;
+}
+
+.md_font {
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 50%;
+    margin-left: 6%;
+}
+
+.md_checkbox{
+    opacity: 20%;
+}
+
+.md-al-text{
+   display: flex;
+   justify-content: center;
+}

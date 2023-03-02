@@ -1,0 +1,47 @@
+.fp_con{
+    font-family: 'Poppins';
+    font-style: 'SemiBold';
+    font-weight:900;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    margin-top: 20%;
+    /* margin-bottom: 15%; */
+}
+
+.forgot-img{
+    width: 179px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.eaddtext
+{
+    margin-left: 6%;
+    font-family:'Poppins';
+    font-style: 'Regular';
+    font-size: 12px;
+    line-height: 18px;
+    line-height: 100%;
+    align-items: Left;
+    vertical-align: top;
+    opacity: 50%;
+    fill: solid #020614;
+}
+
+.svc_btn{
+    margin-top: 50%;
+    --background: #100D40;
+    --border-radius: 40px;
+    width: 85%;
+    height: 7%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 7%;
+}

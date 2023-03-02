@@ -1,0 +1,44 @@
+.cp_con {
+    font-family: 'Poppins';
+    font-style: 'SemiBold';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 40%;
+    text-align: center;
+    color: #333333
+}
+
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 11%;
+    margin-top: 65%;
+}
+
+.grid>Button {
+    --background-color: white !important;
+    color: #100D40;
+}
+
+.btn_1,.btn_2,.btn_3,.btn_4,.btn_5,.btn_6,.btn_7,.btn_8,.btn_9,.btn_0 
+{
+    --background: #fff;
+    color: #100D40;
+    font-family: Ubuntu;
+    font-style: Regular;
+    font-size: 20.66px;
+    line-height: 24px;
+}
+
+.btn_er
+{
+    --background: #fff;
+    color: #100D40;
+    font-family: Ubuntu;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 20px;   
+}
