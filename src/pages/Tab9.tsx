@@ -21,7 +21,7 @@ const Tab9: React.FC = () => {
                 <IonLabel>Email Address</IonLabel>
                 </IonText>
 
-                </IonText>
+                </IonText> 
                 <IonItem fill="outline" className='epinput'>
                     <IonInput value="Alexander Michael"></IonInput>
                 </IonItem>
