@@ -10,7 +10,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import {search, shieldHalfOutline, logoUsd,logoEuro, logoMastodon } from 'ionicons/icons';
+import {search, shieldHalfOutline, logoUsd,logoEuro, logoMastodon, logoBitcoin } from 'ionicons/icons';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
@@ -22,6 +22,7 @@ import Tab8 from './pages/Tab8';
 import Tab9 from './pages/Tab9';
 import Tab10 from './pages/Tab10';
 import Tab11 from './pages/Tab11';
+import BPage from './pages/BPage';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -55,36 +56,40 @@ const App: React.FC = () => (
           <Route exact path="/tab2">
             <Tab2 />
           </Route>
-          <Route path="/tab3">
+          <Route exact path="/tab3">
             <Tab3 />
           </Route>
-          <Route path="/tab4">
+          <Route exact path="/tab4">
             <Tab4 />
           </Route>
-          <Route path="/tab5">
+          <Route exact path="/tab5">
             <Tab5 />
           </Route>
-          <Route path="/tab6">
+          <Route exact path="/tab6">
             <Tab6 />
           </Route>
-          <Route path="/tab7">
+          <Route exact path="/tab7">
             <Tab7 />
           </Route>
-          <Route path="/tab8">
+          <Route exact path="/tab8">
             <Tab8 />
           </Route>
-          <Route path="/tab9">
+          <Route exact path="/tab9">
             <Tab9 />
           </Route>
-          <Route path="/tab10">
+          <Route exact path="/tab10">
             <Tab10 />
           </Route>
-          <Route path="/tab11">
+          <Route exact path="/tab11">
             <Tab11 />
+          </Route>
+          <Route exact path="/bpage">
+            <BPage />
           </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />
           </Route>
+        
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
           <IonTabButton tab="tab1" href="/tab1">
@@ -94,7 +99,7 @@ const App: React.FC = () => (
           <IonTabButton tab="tab2" href="/tab2">
             <IonIcon icon={logoUsd} />
             <IonLabel>Send Money</IonLabel>
-          </IonTabButton>
+          </IonTabButton> 
           <IonTabButton tab="tab3" href="/tab3">
             <IonIcon icon={logoMastodon} />
             <IonLabel>Request Money</IonLabel>
@@ -102,6 +107,10 @@ const App: React.FC = () => (
           <IonTabButton tab="tab4" href="/tab4">
             <IonIcon icon={logoEuro} />
             <IonLabel>Easy To Use</IonLabel>
+            </IonTabButton>
+          <IonTabButton tab="bpage" href="/bpage">
+            <IonIcon icon={logoBitcoin} />
+            <IonLabel>Booking Page</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

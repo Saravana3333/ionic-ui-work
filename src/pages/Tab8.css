@@ -1,16 +1,16 @@
-.wb_con{
+.wb_con {
     font-family: 'Poppins';
     font-style: 'SemiBold';
-    font-weight:900;
+    font-weight: 900;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
     color: #333333
 }
 
-.eptext{
+.eptext {
     margin-left: 20px !important;
-    font-family:'Poppins';
+    font-family: 'Poppins';
     font-style: 'Regular';
     font-size: 12px;
     line-height: 18px;
@@ -21,24 +21,33 @@
     fill: solid #020614;
 }
 
+.bg-img {
+    /* --background: url("D:/Ionicproject/learning/public/assets/images/blueimg.png") 0 0/100% 100% no-repeat; */
+    background-color: #100D40;
+    height: 288px;
+    text-align: center;
+    display: flex;
+}
+
 /* .shieldimg{
      position:absolute; 
 }  */
 
-.shieldtxt>h2
-{
+.shieldtxt {
     font-family: 'Poppins';
-    font-weight:900;
+    font-weight: 900;
     font-size: 24px;
     line-height: 36px;
-    color: wheat;
-    position:absolute;
+    color:#ffffff;
+    line-height: 36px;
+    margin: auto;
+    align-items: center;
 }
 
 
-.fptext{
+.fptext {
     margin-left: 20px !important;
-    font-family:'Poppins';
+    font-family: 'Poppins';
     font-size: 12px;
     line-height: 100%;
     vertical-align: top;
@@ -48,12 +57,12 @@
     margin-right: 5%;
 }
 
-.epinput{
+.epinput {
     margin-right: 6%;
-    margin-left:6%;
+    margin-left: 6%;    
 }
 
-.si_btn{
+.si_btn {
     --background: #100D40;
     --border-radius: 40px;
     width: 85%;
@@ -67,7 +76,7 @@
     margin-left: 7%;
 }
 
-.signup-con{
+.signup-con {
     width: 300px;
     height: 18px;
     /* margin-top:5%; */
@@ -79,4 +88,28 @@
     opacity: 50%;
     text-align: center;
     margin-bottom: 10%;
+}
+
+.transparent-bg-btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.eye-icon{
+    font-size:20px;
+    margin-right: 3%;
+}
+
+.sign-sec {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    --color: #100D40;
+    opacity: 100%;
 }

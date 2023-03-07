@@ -14,21 +14,21 @@ const Tab9: React.FC = () => {
                     <IonImg className='' src='assets/images/Forgotpassword.png' alt="forgotimg" />
                 </div>
 
-                <IonText className='rm_con'>
+                <IonText className='rm_con sm-ep-con'>
                     <p>Enter your registered email below to receive<br></br>password reset instruction</p>
-                
-                <IonText className='eaddtext'>
-                <IonLabel>Email Address</IonLabel>
-                </IonText>
 
-                </IonText> 
+                    <IonText className='eaddtext'>
+                        <IonLabel>Email Address</IonLabel>
+                    </IonText>
+
+                </IonText>
                 <IonItem fill="outline" className='epinput'>
-                    <IonInput value="Alexander Michael"></IonInput>
+                    <IonInput value="alexander@gmail.com"></IonInput>
                 </IonItem>
-            <IonButton className='svc_btn' onClick={()=>{
-          history.push('/tab10')
-        }}>Send Verification Code</IonButton>
             </IonContent>
+                <IonButton className='svc_btn' onClick={() => {
+                    history.push('/tab10')
+                }}>Send Verification Code</IonButton>
         </IonPage>
     );
 };

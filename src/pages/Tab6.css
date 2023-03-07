@@ -18,19 +18,24 @@
     margin-top: 65%;
 }
 
-.grid>Button {
+/* .grid>Button {
     --background-color: white !important;
     color: #100D40;
-}
+} */
 
-.btn_1,.btn_2,.btn_3,.btn_4,.btn_5,.btn_6,.btn_7,.btn_8,.btn_9,.btn_0 
+.btn_1,.btn_2,.btn_3,.btn_4,.btn_5,.btn_6,.btn_7,.btn_8,.btn_9,.btn_0,.btn_er
 {
     --background: #fff;
     color: #100D40;
     font-family: Ubuntu;
-    font-style: Regular;
-    font-size: 20.66px;
+    font-size: 22px;
     line-height: 24px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
 }
 
 .btn_er
